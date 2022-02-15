@@ -7,7 +7,6 @@
 }
 
 
-
 nav {
     font-family: 'Shizuru', cursive;
     text-align: center;
@@ -23,23 +22,79 @@ nav {
     
 }
 
+#font {
+    font-size: 18px;
+}
+
 #fonts > p:first-of-type {
     color: red;
     font-weight: bold;
 }
 
-#fonts > b {
+#fonts b {
     font-weight: normal;
 }
+/* Font Size */
+#fonts p:nth-child(4) {
+    font-size: 1em;
+}
 
-#pseudo {
+#fonts p:nth-child(5) {
+    font-size: 2rem;
+}
 
+#fonts p:nth-child(6) {
+    font-style: italic;
+}
+/* Every other and Start */
+#fonts p:nth-child(4n + 5) {
+    background-color: darkgray;
+}
+
+#fonts p:nth-child(2n + 5):hover {
+    background-color: blue;
+}
+
+#pseudo a {
+    color: red;
+    padding: 10px;
+}
+
+#pseudo a:hover {
+    color: green;
+    border: 1px solid black; 
+}
+
+#pseudo a:active {
+    color: blue;
 }
 
 #transitions {
 
 }
 
+#transitions p:first-of-type {
+    color: blue;
+    padding: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    transition: margin-left 1s, color 3s;
+}
+
+#transitions p:first-of-type:hover {
+    margin-left: 100px;
+    color: pink;
+}
+
+#transitions ul {
+    margin-left: -100px;
+    border: 1px solid black;
+    transition: margin-left 1s, border 2s;
+}
+#transitions ul:active {
+    margin-left: 100px;
+    border: 5px solid orange;
+}
 .topic {
     padding: 20px; 
     margin: 10px 0;
