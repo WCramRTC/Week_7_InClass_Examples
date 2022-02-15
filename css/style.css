@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    text-align: center;
+    padding: 20px 0;
+    background-color: darkgrey;
+}
+
+#container {
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid black;
+}
+
+#fonts {
+    
+}
+
+#pseudo {
+
+}
+
+#transitions {
+
+}
+
+.topic {
+    padding: 20px; 
+    margin: 10px 0;
+    border: 5px solid black;
+    border-radius: 5px;
+}
