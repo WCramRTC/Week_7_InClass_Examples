@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Shizuru&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+
+
 nav {
+    font-family: 'Shizuru', cursive;
     text-align: center;
     padding: 20px 0;
     background-color: darkgrey;
@@ -14,10 +19,17 @@ nav {
     margin: 0 auto;
     width: 80%;
     border: 1px solid black;
+
+    
 }
 
-#fonts {
-    
+#fonts > p:first-of-type {
+    color: red;
+    font-weight: bold;
+}
+
+#fonts > b {
+    font-weight: normal;
 }
 
 #pseudo {
